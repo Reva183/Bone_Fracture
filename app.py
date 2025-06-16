@@ -7,7 +7,7 @@ import cv2  # For image resizing and conversion
 # Load your model
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("best_model (1).h5") #model (1).h5
+    model = tf.keras.models.load_model("best_model.h5") #model (1).h5
     return model
 
 model = load_model()
